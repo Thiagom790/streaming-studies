@@ -1,0 +1,14 @@
+{
+  "name": "example02-creating-and-consuming-a-web-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon src/server.js",
+    "client": "node src/client.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
